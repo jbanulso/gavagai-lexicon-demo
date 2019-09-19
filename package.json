@@ -1,0 +1,27 @@
+{
+  "name": "gavagai-lexicon-demo",
+  "version": "1.0.0",
+  "description": "A demo for Gavagai's Lexicon UI",
+  "main": "index.js",
+  "author": "Jorge Bañuls Ordóñez",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "components": "^0.1.0",
+    "iso-639-1": "^2.1.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-select": "^3.0.4",
+    "react-spring": "^8.0.27",
+    "styled-components": "^4.3.2",
+    "styled-reset": "^4.0.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
